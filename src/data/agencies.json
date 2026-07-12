@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Golden Expeditions",
+    "rating": 4.7,
+    "totalReviews": 89,
+    "verified": true,
+    "responseTime": "menos de 1 hora",
+    "totalTours": 8,
+    "yearsActive": 5,
+    "badge": "Top Rated"
+  },
+  {
+    "id": 2,
+    "name": "Cordillera Viva",
+    "rating": 4.6,
+    "totalReviews": 64,
+    "verified": true,
+    "responseTime": "2 horas",
+    "totalTours": 5,
+    "yearsActive": 4,
+    "badge": "Verificada"
+  }
+]

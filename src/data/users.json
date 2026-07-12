@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Admin TourClick",
+    "email": "admin@tourclick.pe",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Golden Expeditions",
+    "email": "empresa@golden.pe",
+    "password": "empresa123",
+    "role": "company",
+    "agencyId": 1
+  },
+  {
+    "id": 3,
+    "name": "Cliente Demo",
+    "email": "cliente@demo.pe",
+    "password": "cliente123",
+    "role": "client"
+  }
+]
