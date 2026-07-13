@@ -4,13 +4,14 @@ import { useAuth } from '../contexts/AuthContext.jsx';
 
 function Navbar() {
   const { user, logout } = useAuth();
+  const logoUrl = `${import.meta.env.BASE_URL}images/logo.png`;
 
   return (
     <header className="navbar">
       <Link to="/" className="brand">
-        <img 
-          src="/images/logo.png" 
-          alt="TourClick Logo" 
+        <img
+          src={logoUrl}
+          alt="TourClick Logo"
           className="brand-logo"
         />
         <span>TourClick</span>
