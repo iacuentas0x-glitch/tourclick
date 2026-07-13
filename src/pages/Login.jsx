@@ -43,13 +43,6 @@ function Login() {
           <p>Clientes, empresas y administradores usan la misma puerta de acceso con roles separados.</p>
         </div>
 
-        <div className="demo-access">
-          <strong>Accesos demo</strong>
-          <span>Cliente: cliente@demo.pe / cliente123</span>
-          <span>Empresa: empresa@golden.pe / empresa123</span>
-          <span>Admin: admin@tourclick.pe / admin123</span>
-        </div>
-
         <form className="booking-form" onSubmit={handleSubmit}>
           {mode === 'register' && (
             <>
